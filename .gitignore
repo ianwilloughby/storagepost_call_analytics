@@ -1,0 +1,38 @@
+# Terraform
+terraform/.terraform/
+terraform/*.tfstate
+terraform/*.tfstate.backup
+terraform/.terraform.lock.hcl
+terraform/terraform.tfvars
+terraform/lambda_packages/*.zip
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+
+# Lambda build artifacts
+lambdas/stream_processor/package/
+
+# IDE / Editor
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Accidental files in stream_processor
+lambdas/stream_processor/1
+lambdas/stream_processor/h
+lambdas/stream_processor/3 = boto3.client('s3', region_name='us-east-1')
+lambdas/stream_processor/glue get-table --database-name post_call_analytics --name calls --region us-east-1 --query Table.StorageDescriptor.Columns[*].Name --output text
