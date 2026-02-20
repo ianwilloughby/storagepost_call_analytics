@@ -1,0 +1,6 @@
+aws_region                 = "us-east-1"
+project_name               = "post-call-analytics"
+environment                = "prod"
+calls_table_name           = "callrecords-9918da60-effa-11ef-98bc-0e4d6e7dc447"
+scorecards_table_name      = "scorecards"
+existing_transcribe_bucket = "pca-outputbucket-ipl3kszkd6wk"

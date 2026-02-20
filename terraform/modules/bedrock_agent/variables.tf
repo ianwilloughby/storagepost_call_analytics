@@ -1,0 +1,10 @@
+variable "project_name"               { type = string }
+variable "environment"                { type = string }
+variable "aws_account_id"             { type = string }
+variable "aws_region"                 { type = string }
+variable "analytics_bucket_arn"       { type = string }
+variable "analytics_bucket_name"      { type = string }
+variable "athena_results_bucket_arn"  { type = string }
+variable "athena_results_bucket_name" { type = string }
+variable "athena_workgroup_name"      { type = string }
+variable "lambda_package_path"        { type = string }

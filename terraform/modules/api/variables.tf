@@ -1,0 +1,9 @@
+variable "project_name" { type = string }
+variable "environment" { type = string }
+variable "aws_account_id" { type = string }
+variable "aws_region" { type = string }
+variable "bedrock_agent_id" { type = string }
+variable "bedrock_alias_id" { type = string }
+variable "lambda_package_path" { type = string }
+variable "jobs_bucket_name" { type = string }
+variable "jobs_bucket_arn" { type = string }

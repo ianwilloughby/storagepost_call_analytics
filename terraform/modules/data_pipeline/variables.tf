@@ -1,0 +1,11 @@
+variable "project_name"                   { type = string }
+variable "environment"                    { type = string }
+variable "aws_account_id"                 { type = string }
+variable "aws_region"                     { type = string }
+variable "calls_table_arn"                { type = string }
+variable "calls_stream_arn"               { type = string }
+variable "scorecards_table_arn"           { type = string }
+variable "scorecards_stream_arn"          { type = string }
+variable "existing_transcribe_bucket"     { type = string }
+variable "existing_transcribe_bucket_arn" { type = string }
+variable "lambda_package_path"            { type = string }
